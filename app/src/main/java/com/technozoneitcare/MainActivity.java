@@ -20,9 +20,11 @@ public class MainActivity extends AppCompatActivity {
         //fetch website 
         myWebView = findViewById(R.id.webview);
         myWebView.setWebViewClient(new WebViewClient());
-        myWebView.loadUrl("https://technozoneitcare.netlify.com/");
         WebSettings webSettings = myWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
+
+        myWebView.loadUrl("https://technozoneitcare.netlify.com/");
+//        myWebView.loadUrl("http://10.0.2.2:8000");
     }
 
     @Override
