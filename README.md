@@ -1,1 +1,4 @@
-# technozoneitcare_app
+### technozoneitcare_app
+
+
+[parent repo](https://github.com/roottraveller/technozoneitcare)
